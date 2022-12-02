@@ -1,0 +1,139 @@
+body{
+	background-color:#c6b7b4;
+}
+
+
+
+
+h1{ 
+	background-color:black;
+	color: White;
+	font-family: verdana;
+	font-size:200%;
+	text-align:center;
+
+}
+h2 {
+	 background-color:white;
+        color: White;
+        font-family: fantasy;
+        font-size:100%;
+        text-align:center;
+
+
+
+nav ul{
+	font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display:
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+form { 
+	text-align: center;
+	background-color: #6e6c6c;
+}
+.logo-footer {
+        margin-bottom: 40px;
+     }
+     footer {
+            color: black;
+	    background-color:#8F8E8E;
+	    text-align: center;
+     }
+     footer p, a {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+footer h6 {
+    font-family: 'Roboto';
+    margin-bottom: 20px;
+    position: relative;
+}
+footer h6:after {
+    position: absolute;
+    content: "";
+    background: grey;
+    width: 12%;
+    height: 1px;
+    left: 0;
+    bottom: -20px;
+}
+     .btn-footer {
+                 color: black;
+
+                text-decoration: none;
+                border: 1px solid;
+                border-radius: 43px;
+                font-size: 13px;
+                padding: 7px 30px;
+                line-height: 47px;
+     }
+     .btn-footer:hover {
+
+                text-decoration: none;
+
+     }
+    .form-footer input[type="text"] {
+        border: none;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    padding-left: 10px;
+
+}
+::placeholder {
+    font-size: 10px;
+    padding-left: 10px;
+    font-style: italic;
+}
+ .form-footer input[type="button"] {
+    border: none;
+    background:#232323;
+        margin-left: -5px;
+    color: #fff;
+    outline: none;
+    border-radius: 0 16px 16px 0;
+    padding: 2px 12px;
+}
+     .social .fa {
+    color: grey;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
+}
+     footer ul li {
+    list-style: none;
+    display: block;
+}
+  footer ul  {
+   padding-left: 0;
+}
+footer ul  li a{
+  text-decoration: none;
+  color: grey;
+  text-decoration:none;
+}
+
