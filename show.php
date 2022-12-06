@@ -12,7 +12,7 @@ if($result->num_rows > 0){
 	echo "<br><br>";	
 	}
 }else{
-	echo "no username or login was bad<br>";
+	echo "No records available<br>";
 }
 
 ?>
