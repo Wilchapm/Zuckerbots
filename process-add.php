@@ -1,4 +1,6 @@
 <html>
+
+
 <?php
 include 'connect.php';
 include 'index.html';
@@ -10,4 +12,5 @@ $sql="INSERT INTO item values ('$id','$name','$qty')";
 #echo $sql;
 $conn->query($sql);
 ?>
+<h1> Item Added! </h1>
 </html>
