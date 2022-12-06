@@ -1,5 +1,5 @@
 body{
-	background-color:#c6b7b4;
+	background-color:grey;
 }
 
 
@@ -8,8 +8,8 @@ body{
 h1{ 
 	background-color:black;
 	color: White;
-	font-family: verdana;
-	font-size:200%;
+	font-family: monospace;
+	font-size:45px;
 	text-align:center;
 
 }
@@ -32,26 +32,37 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-  display:
+  background-color: black;
 }
 
 li {
-  float: center;
+  float: left;
 }
 
 li a {
+font-size: 25px;
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: #BABABA}
+
+
+.center {
+	width: 100%;
+	height: 720px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
+
+
+
 
 form { 
 	text-align: center;

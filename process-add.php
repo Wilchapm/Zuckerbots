@@ -1,7 +1,7 @@
 <html>
 <?php
 
-include_once ("db_connect.php");
+include_once ("connect.php");
 $name = $_GET["name"];
 $id = $_GET["id"];
 $qty= $_GET["qty"];
